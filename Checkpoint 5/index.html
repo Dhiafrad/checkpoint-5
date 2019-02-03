@@ -1,0 +1,45 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div  >
+    <center>
+<button  class="buttons" id="italic">Italic</button>
+<button class="buttons" id="bold">Bold</button>
+<button class="buttons" id="Underline">Underline</button>
+
+
+
+
+<select onchange="changeFont(this);" id="font"  >
+        <option value="Times New Roman" selected ="selected">Times New Roman</option>
+        <option value="Arial">Arial</option>
+        <option value="Courier New">Courier New</option>
+       
+</select>
+<select onchange="changeSize(this);" id="size">
+        <option value="10">10</option>
+        <option value="20">20</option>
+        <option value="30">30</option>
+        <option value="40">40</option>
+</select>
+</center>
+</div>
+<br>
+<br>
+<br>
+
+<center><<textarea id="text" type="text" rows="100" cols="170"></textarea>></center>
+
+
+
+
+
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="js/main.js"></script>
+</html>

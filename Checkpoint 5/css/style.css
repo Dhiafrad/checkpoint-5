@@ -1,0 +1,35 @@
+.buttons {
+    background-color: rgb(40, 100, 134);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+#Italic {
+    font-style: italic;
+}
+#Bold {
+    font-weight: bold;
+}
+#underline {
+    text-decoration: underline
+}
+#text {
+    text-align:start;
+  
+}
+.liste{
+    margin: 10%;
+}
+body{background-color: lightblue;}
+select{
+    background-color:rgb(40, 100, 134);
+    height:50px;
+    color:white;
+}
